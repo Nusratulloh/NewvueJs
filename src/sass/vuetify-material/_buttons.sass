@@ -1,0 +1,82 @@
+.v-btn.v-size--default
+  font-size: 14px
+  height: 48px !important
+  box-shadow: none
+  border-radius: inherit !important
+.v-btn--icon.v-size--default .v-icon, .v-btn--fab.v-size--default .v-icon
+    font-size: 24px !important
+
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined)
+    background-color: #999
+    color: black !important
+
+.v-btn
+    border-radius: none !important
+.v-btn--round
+    border-radius: none !important
+
+.v-icon.v-icon
+  font-size: 16px
+
+.v-btn__content .v-icon--left
+  margin-right: 4px
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined)
+  background-color: #999
+  color: #fff
+  &:hover
+    background-color: #999
+    color: #fff
+
+.v-btn.white
+  .v-btn__content
+    color: #999
+.v-btn--fab.v-size--small
+  height: 41px
+  width: 41px
+
+.v-btn:not(.v-btn--text):not(.v-btn--outlined):hover:before
+  opacity: 0
+
+.v-btn:not(.v-btn--text):not(.v-btn--outlined):focus:before
+    opacity: 0
+
+// Button group
+
+.v-item-group
+  .v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined)
+    margin-right: 0
+
+.v-btn-toggle
+  .v-btn
+    opacity: 1
+    border-radius: none !important
+
+.v-btn-toggle > .v-btn.v-size--default
+   height: inherit
+
+.theme--light.v-btn-toggle .v-btn.v-btn
+  border-color: #999 !important
+  &.primary
+    border-color: #e91e63 !important
+  &.secondary
+    border-color: #9c27b0 !important
+  &.success
+    border-color: #4caf50 !important
+  &.warning
+    border-color: #fb8c00 !important
+  &.error
+    border-color: #ff5252 !important
+  &.info
+    border-color: #00cae3 !important
+.v-pagination li .v-pagination__item
+  margin: 0
+  box-shadow: none
+  border: 1px solid #DDDDDD
+  border-radius: 0px !important
+
+.theme--light.v-pagination .v-pagination__navigation
+  margin: 0px !important
+  box-shadow: none
+  border: 1px solid #DDDDDD
+  border-radius: 0px !important
+  padding: 16px 0px
